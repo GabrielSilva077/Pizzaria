@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    gap: 96px;
+    margin-left: 96px;
+}
+
+.img_pizza {
+    margin-top: 15px;
+    width: 150px;
+    height: auto;
+}
+
+@media(max-width: 600px){
+    .cards {
+        flex-direction: column;
+    }
+}
+
+.btn-comprar{
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.829);
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn-comprar:hover{
+    background-color: rgba(255, 0, 0, 0.192);
+    cursor: pointer;
+    color: black;
+    transition: 0.5s all;
+}
+
+/* background-color: rgba(255, 0, 0, 0.192);
+color: white; */
